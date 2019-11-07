@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND="noninteractive" HOME="/"
 
 # Install base softwares
 RUN apt update
-RUN apt install -y qt5-qmake qtbase5-dev make gcc qt5-default g++
+RUN apt install -y qt5-qmake qtbase5-dev make gcc qt5-default g++ git
 
 
 # Install other useful softwares
